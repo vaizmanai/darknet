@@ -607,6 +607,8 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         //free_image(im);
         free_image(sized);
         //if (filename) break;
+        fflush(stdout);
+        usleep(250);
     }
 }
 
